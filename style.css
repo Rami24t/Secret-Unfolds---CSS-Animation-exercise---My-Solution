@@ -1,0 +1,59 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.mainContainer {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+.box,
+.hi {
+  position: absolute;
+}
+.hi {
+  top: 50%;
+  right: 50%;
+  translate: 50% -50%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.7rem;
+  font-weight: 100;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  transition: all 0.8s;
+}
+.steelblue {
+  background-color: steelblue;
+  top: calc(50% - 150px);
+  left: calc(50% - 150px);
+}
+.dimgray {
+  background-color: dimgray;
+  top: calc(50% - 150px);
+  left: 50%;
+}
+.yellow {
+  background-color: yellow;
+  bottom: calc(50% - 150px);
+  left: calc(50% - 150px);
+}
+.rosybrown {
+  background-color: rosybrown;
+  bottom: calc(50% - 150px);
+  left: 50%;
+}
+.mainContainer:hover .steelblue {
+  transform: translateX(-150px) rotate(90deg);
+}
+.mainContainer:hover .yellow {
+  transform: translateX(-150px) rotate(-90deg);
+}
+.mainContainer:hover .dimgray {
+  transform: translateX(150px) rotate(-90deg);
+}
+.mainContainer:hover .rosybrown {
+  transform: translateX(150px) rotate(90deg);
+}

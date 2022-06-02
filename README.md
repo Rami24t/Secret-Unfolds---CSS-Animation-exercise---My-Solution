@@ -1,3 +1,8 @@
+# My live solution
+
+https://rami24t.github.io/Secret-Unfolds---CSS-Animation-exercise---My-Solution/ (fully responsive)
+
+
 # Secret Unfolds
 
 Create an animation that works like the example shown below.

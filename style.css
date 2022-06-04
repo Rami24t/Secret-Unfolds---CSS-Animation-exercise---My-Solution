@@ -43,6 +43,7 @@ html:root {
 .box {
   width: var(--box_size);
   height: var(--box_size);
+  opacity: 0.9;
 }
 .steelblue {
   background-color: steelblue;
